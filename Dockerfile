@@ -12,7 +12,7 @@ RUN wget -O /tmp/nomachine.rpm "https://www.nomachine.com/free/arm/v8/rpm" && zy
 RUN wget -O /nxserver.sh https://github.com/ramirezfx/opensuse-tumbleweed-kde-desktop/raw/main/nxserver.sh && chmod +x /nxserver.sh
 
 # Custom Packages And Sripts:
-RUN wget -O /custom.sh https://github.com/ramirezfx/opensuse-tumbleweed-kde-desktop/raw/main/custom.sh && chmod +x /custom.sh
+RUN wget -O /custom.sh https://github.com/ramirezfx/opensuse-tumbleweed-kde-desktop-arm64/raw/main/custom.sh && chmod +x /custom.sh
 RUN /custom.sh
 
 # Add language-support:
