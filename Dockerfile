@@ -1,4 +1,4 @@
-ARG VER=21JAN2023
+ARG VER=latest
 FROM ramirezfx/opensuse-tumbleweed-kde-baseimage-arm64:$VER
 ENV SHELL=/bin/bash
 
