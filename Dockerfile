@@ -16,6 +16,6 @@ RUN wget -O /custom.sh https://github.com/ramirezfx/opensuse-tumbleweed-kde-desk
 RUN /custom.sh
 
 # Add language-support:
-RUN wget -O /tmp/languages.txt https://github.com/ramirezfx/opensuse-tumbleweed-kde-desktop/raw/main/languages-kde.txt && xargs -a /tmp/languages.txt zypper -n --no-gpg-checks in
+RUN wget -O /tmp/languages.txt https://github.com/ramirezfx/opensuse-tumbleweed-kde-desktop-arm64/raw/main/languages-kde.txt && xargs -a /tmp/languages.txt zypper -n --no-gpg-checks in
 
 ENTRYPOINT ["/nxserver.sh"]
