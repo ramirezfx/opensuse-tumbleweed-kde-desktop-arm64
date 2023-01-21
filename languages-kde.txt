@@ -142,7 +142,6 @@ libksane-lang
 libksysguard5-lang
 libpwquality-lang
 libsecret-lang
-libsmbios-lang
 libsoup-lang
 libsoup2-lang
 libstorage-ng-lang
