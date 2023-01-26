@@ -12,3 +12,7 @@ zypper -n in seafile-client
 DLLINK=https://az764295.vo.msecnd.net/stable/97dec172d3256f8ca4bfb2143f3f76b503ca0534/code-1.74.3-1673284165.el7.aarch64.rpm
 wget -O /tmp/code.rpm $DLLINK
 zypper -n --no-gpg-checks in /tmp/code.rpm
+
+# Install Chromium Web-Browser
+# ----------------------------
+zypper -n in chromium
